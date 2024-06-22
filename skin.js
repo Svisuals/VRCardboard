@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.6/17336
-// Filename: cardboard.ggsk
-// Generated 2024-06-22T11:37:13
+// Filename: cardboard2.ggsk
+// Generated 2024-06-22T11:42:31
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, false);
@@ -128,19 +128,19 @@ function pano2vrSkin(player,base) {
 		el.appendChild(els);
 		el.ggSubElement = els;
 		el.ggId="crosshair";
-		el.ggDx=0.5;
-		el.ggDy=0.5;
+		el.ggDx=-2;
+		el.ggDy=23;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_image ";
 		el.ggType='image';
 		hs ='';
-		hs+='height : 5px;';
+		hs+='height : 82px;';
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
 		hs+='top : -10000px;';
 		hs+='visibility : inherit;';
-		hs+='width : 5px;';
+		hs+='width : 86px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
